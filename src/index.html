@@ -21,6 +21,19 @@
             <i class="btn prev ri-arrow-left-line"></i>
             <i class="btn next ri-arrow-right-line"></i>
         </nav>
+
     </main>
+<script>
+    
+    let interact = false;
+document.addEventListener('click', function() {
+  if (!interact) {
+    interact = true;
+    const audio = new Audio('https://dear-mthu.vercel.app/audio.mp3');
+    audio.play();
+  }
+  
+});
+</script>
 </body>
 </html>
